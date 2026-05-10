@@ -1,0 +1,9 @@
+model,exp_id,lr,batch_size,max_epochs,augment,test_accuracy_%,total_time_min
+alexnet,exp1,0.001,16,5,False,98.35,1.64
+alexnet,exp2,1e-05,32,15,True,96.50,4.10
+vgg16,exp1,0.001,16,5,False,98.83,23.41
+vgg16,exp2,1e-05,32,15,True,94.84,69.19
+resnet50,exp1,0.001,16,5,False,98.15,10.61
+resnet50,exp2,1e-05,32,15,True,80.93,32.99
+efficientnet_b0,exp1,0.001,16,5,False,98.05,3.75
+efficientnet_b0,exp2,1e-05,32,15,True,85.02,12.97
